@@ -5,4 +5,4 @@ exports.getProducts = function(req, res) {
 	Model.products.findAll({raw: true}).then(function(products) {
 		res.json(products)
 	})
-} 
+}
